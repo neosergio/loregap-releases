@@ -5,6 +5,13 @@ Signed and notarised builds of **LoreGap**, a local-first macOS study trainer fo
 
 This repository holds releases only; it contains no source code.
 
+![LoreGap after a wrong answer: what you chose, the correct answer, the explanation, and
+the confidence question underneath](screenshot.png)
+
+The question at the bottom is what sets it apart. You say how sure you were *before*
+answering, after seeing whether you were right. Everything else — mastery, review timing,
+what counts as a misconception — is built on that one signal.
+
 ## What it does
 
 LoreGap is not a quiz app. It answers a narrower question: *what do you believe you know
