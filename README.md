@@ -45,7 +45,7 @@ only to the disk image, so the first launch works with no network connection.
 ## Verifying a download
 
 ```sh
-shasum -a 256 LoreGap-0.2.dmg     # compare against the checksum in the release notes
+shasum -a 256 LoreGap-0.3.dmg     # compare against the checksum in the release notes
 spctl --assess --type execute --verbose=2 /Applications/LoreGap.app
 ```
 
@@ -53,8 +53,8 @@ A correct result reads `accepted` and `source=Notarized Developer ID`.
 
 ## What to tell me about
 
-This is an early build and the question bank is still small: **twenty-three questions**,
-covering 97.4% of the exam's published weight but only a few questions in each domain. You
+This is an early build and the question bank is still small: **thirty questions**,
+covering every domain of the exam's published blueprint but only a few questions in each. You
 will run out of new material quickly. That is expected and it is not the thing to report.
 
 What is worth reporting is the loop:
